@@ -1,14 +1,18 @@
-const Profile = ({session, logout}) =>{
-     const logout = evt =>{
+// import { v4 } from 'uuid';
 
-     }
-     return (
-        <>
-        <div> User ID : {session.loginUser?.name}</div>
-        <button> </button>
-        </>
-     )
+const Profile = ({ session, logout }) => {
+  // const logout = evt => {
+  //   evt.preventDefault();
+  //   // session.loginUser = null;
+  //   session = {};
+  // }
 
-}
+  return (
+    <>
+      <div>User ID: {session.loginUser?.name}</div>
+      <button onClick={logout}>Logout</button>
+    </>
+  );
+};
 
 export default Profile;
