@@ -12,14 +12,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "v": "vite",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "start": "react-scripts start",
     "wbuild": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -44,7 +45,11 @@
     "@typescript-eslint/parser": "^5.40.1",
     "@vitejs/plugin-react": "^2.1.0",
     "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.7.1",
     "vite": "^3.1.8"
   }

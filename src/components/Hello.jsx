@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export const Hello = (props) => {
-  // console.log('@@@@@ Hello');
+  console.log('@@@@@ Hello');
   const [isActive, setActive] = useState(false);
 
   return (

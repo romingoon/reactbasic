@@ -34,12 +34,12 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
         <My session={session} logout={logout} />
 
         <h2>Count: {count}</h2>
-        <Hello name="Hong" isMale={true} plusCount={plusCount} />
+        <Hello name='Hong' isMale={true} plusCount={plusCount} />
         {/* <Hello age={0} /> */}
         {/* <Hello name='홍길동' age={30}><h3>반갑습니다~</h3></Hello> */}
       </header>
